@@ -70,11 +70,231 @@
             </div>
         </aside>
         <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
             
+            <div class="insights">
+                
+                <div class="vendas">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total de Vendas</h3>
+                            <h1>R$25.024,23</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Últimas 24 Horas</small>
+                </div>
+
+                <div class="despesas">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total de Despesas</h3>
+                            <h1>R$14.000,85</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Últimas 24 Horas</small>
+                </div>
+
+                <div class="faturamento">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total de Faturamento</h3>
+                            <h1>R$10.542,24</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>42%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Últimas 24 Horas</small>
+                </div>
+
+            </div>
+
+            <div class="recent-order">
+                <h2>Ordens Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome do Produto</th>
+                            <th>Número do Produto</th>
+                            <th>Pagamento</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <td>Foldable Dorne</td>
+                            <td>85631</td>
+                            <td>Em Andamento</td>
+                            <td class="warning">Pendente</td>
+                            <td class="primary">Detalhes</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+                <a href="#">Mostrar</a>
+            </div>
         </main>
+
+        <div class="right">
+            <div class="top">
+
+                <button id="menu-btn">
+                    <span class="material-icons-sharp"> menu</span>
+                </button>
+                
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Daniel</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./Image/profile_2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="atualizacoes">
+                <h2>Atualizações</h2>
+
+                <div class="ups">
+
+                    <div class="up">
+                        <div class="foto-perfil">
+                            <img src="./Image/profile_1.jpg" alt="">
+                        </div>
+                        <div class="mensagem">
+                            <p>
+                                <b>Marina Alabanda</b>
+                                recebeu a ordem do Drone Nikkon com 
+                                GPS.
+                            </p>
+                            <small class="text-muted">1 segundo atrás</small>
+                        </div>
+                    </div>
+
+                    <div class="up">
+                        <div class="foto-perfil">
+                            <img src="./Image/profile_3.jpg" alt="">
+                        </div>
+                        <div class="mensagem">
+                            <p>
+                                <b>Erik Ramos</b>
+                                recebeu a ordem do Drone LeNovo versão 2.1 com 
+                                GPS.
+                            </p>
+                            <small class="text-muted">3 minutos atrás</small>
+                        </div>
+                    </div>
+
+                    <div class="up">
+                        <div class="foto-perfil">
+                            <img src="./Image/profile_4.jpg" alt="">
+                        </div>
+                        <div class="mensagem">
+                            <p>
+                                <b>Lili Lima</b>
+                                recebeu a ordem do Drone Oppo com 
+                                GPS.
+                            </p>
+                            <small class="text-muted">24 minutos atrás</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="analise-vendas">
+
+                <h2>Análise de Vendas</h2>
+
+                <div class="item on">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Pedidos Online</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+
+                <div class="item off">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Pedidos Offline</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="danger">-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+
+                <div class="item clientes">
+                    <div class="icon">
+                        <span class="material-icons-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Novos Clientes</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                        <h3>825</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Adicionar Produtos</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
 
+    <script src="./Order.js"></script>
     <script src="./Home.js"></script>
 </body>
 
